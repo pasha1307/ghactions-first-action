@@ -5,8 +5,6 @@ jobs:
     runs-on: ubuntu_latest
     steps:
     - name: Print output
-      run: |
-            echo "First Hello"
-            echo "Second Hellow
+      run: echo "First Hello"
     - name: Complete job
       run: "Good bye!"
